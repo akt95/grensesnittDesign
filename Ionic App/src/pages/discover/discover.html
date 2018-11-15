@@ -1,43 +1,73 @@
 <ion-header>
 
-  <ion-navbar>
+  <ion-navbar >
     <ion-title>Discover</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
+<ion-content>
 
-  <div>
-    <div id="karlJohan">
-      <button ion-button (click)=toKarlJohan()> Karl Johans Gate</button>
-      </div>
 
-    <div id="akerBrygge">
-      <button ion-button (click)="toAkerBrygge()"> Aker Brygge</button>
-    </div>
 
-    <div id =vikingMuseum>
-        <button ion-button (click)=toVikingMuseum()> Viking Museum</button>
-    </div>
-
-    <div id="osloCity">
-      <button ion-button (click)=toOsloCity()> Oslo City</button>
-    </div>
-
-    <div id="operaHuset">
-      <button ion-button (click)=toOperaHuset()> The Opera </button>
-    </div>
-
-    <div id="holmenKollen">
-     <button ion-button (click)=toHolmenkollen() id="holm"> Holmenkollen</button>
-    </div>
-
+ <div id="content-container">
+    
+      <button id="karljohan" ion-button color="dark" full outline (click)=toKarlJohan()> 
+        <h3 id="kjg">Karl Johans Gate</h3>
+        <p id="kjg-adr">Karl Johans Gate</p>
+        <p id="kjg-dist">100m</p>
+        <img id="kjg-img" src="/assets/imgs/karljohansbilde.jpg"><img/>
+        <div id="kjg-rate">
+          <ion-icon color="star" name="ios-star">5</ion-icon>
+        </div>
+      </button>
+      <button id="akerbrygge" ion-button color="dark" full outline (click)=toAkerBrygge()> 
+          <h3 id="akb">Aker Brygge</h3>
+          <p id="akb-adr">Stranden 1</p>
+          <p id="akb-dist">1.6km</p>
+          <img id="akb-img" src="/assets/imgs/AkerBrygge.jpg"><img/>
+          <div id="akb-rate">
+            <ion-icon color="star" name="ios-star">4</ion-icon>
+          </div>
+        </button>
+        <button id="vikingmuseum" ion-button color="dark" full outline (click)=toVikingMuseum()> 
+            <h3 id="vk">Vikingskipshuset</h3>
+            <p id="vk-adr">Huk Aveny 35</p>
+            <p id="vk-dist">5.8km</p>
+            <img id="vk-img" src="/assets/imgs/vikingmuseum.jpeg"><img/>
+            <div id="vk-rate">
+              <ion-icon color="star" name="ios-star">4</ion-icon>
+            </div>
+          </button>
+          <button id="operahuset" ion-button color="dark" full outline (click)=toOperaHuset()> 
+              <h3 id="op">Operahuset</h3>
+              <p id="op-adr">Kirsten Flagstads Plass 1</p>
+              <p id="op-dist">230m</p>
+              <img id="op-img" src="/assets/imgs/operahuset.jpg"><img/>
+              <div id="op-rate">
+                <ion-icon color="star" name="ios-star">4</ion-icon>
+              </div>
+            </button>
+            <button id="oslocity" ion-button color="dark" full outline (click)=toOsloCity()> 
+                <h3 id="oc">Oslo City</h3>
+                <p id="oc-adr">Stenersgata 1</p>
+                <p id="oc-dist">300m</p>
+                <img id="oc-img" src="/assets/imgs/oslocity.jpeg"><img/>
+                <div id="oc-rate">
+                  <ion-icon color="star" name="ios-star">3</ion-icon>
+                </div>
+              </button>
+              <button id="holmenkollen" ion-button color="dark" full outline (click)=toOsloCity()> 
+                  <h3 id="hk">Holmenkollen</h3>
+                  <p id="hk-adr">Kongeveien 5</p>
+                  <p id="hk-dist">8.9km</p>
+                  <img id="hk-img" src="/assets/imgs/holmenkollen.jpg"><img/>
+                  <div id="hk-rate">
+                    <ion-icon color="star" name="ios-star">5</ion-icon>
+                  </div>
+                </button>
    </div>
 
 </ion-content>
 
-<ion-footer padding>
-  <p>Exploring Oslo</p>
-</ion-footer>

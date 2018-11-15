@@ -14,6 +14,5 @@ export class ProfileNamePage {
   constructor(public navCtrl: NavController) {
   }
 
-  /*stopSliding(){this.list.enableSlidingItems(false)}
-*/
+  //stopSliding(){this.list.enableSlidingItems(false)}
 }
