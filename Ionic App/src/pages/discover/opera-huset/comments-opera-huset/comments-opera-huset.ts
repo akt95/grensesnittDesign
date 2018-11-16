@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import {CommentsOperaHusetPage} from "./comments-opera-huset/comments-opera-huset";
 
 /**
- * Generated class for the OperaHusetPage page.
+ * Generated class for the CommentsOperaHusetPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,16 +10,16 @@ import {CommentsOperaHusetPage} from "./comments-opera-huset/comments-opera-huse
 
 @IonicPage()
 @Component({
-  selector: 'page-opera-huset',
-  templateUrl: 'opera-huset.html',
+  selector: 'page-comments-opera-huset',
+  templateUrl: 'comments-opera-huset.html',
 })
-export class OperaHusetPage {
+export class CommentsOperaHusetPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
-  toComment()
-  {
-    this.navCtrl.push(CommentsOperaHusetPage)
-        }
+  ionViewDidLoad() {
+    console.log('ionViewDidLoad CommentsOperaHusetPage');
+  }
+
 }

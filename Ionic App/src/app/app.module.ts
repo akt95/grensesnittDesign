@@ -24,7 +24,9 @@ import {OsloCityPage} from "../pages/discover/oslo-city/oslo-city";
 import {ChatPage} from "../pages/chat/chat";
 import {QrCodePage} from "../pages/qr-code/qr-code";
 import {WalletPage} from "../pages/wallet/wallet";
-import {ProfileNamePage} from "../pages/profile-name/profile-name"
+import {ProfileNamePage} from "../pages/profile-name/profile-name";
+import {CommentsOperaHusetPage} from "../pages/discover/opera-huset/comments-opera-huset/comments-opera-huset";
+
 @NgModule({
   declarations: [
     MyApp,
@@ -43,6 +45,7 @@ import {ProfileNamePage} from "../pages/profile-name/profile-name"
     QrCodePage,
     WalletPage,
     ProfileNamePage,
+    CommentsOperaHusetPage,
 
   ],
   imports: [
@@ -67,6 +70,7 @@ import {ProfileNamePage} from "../pages/profile-name/profile-name"
     TabsPage,
     WalletPage,
     ProfileNamePage,
+    CommentsOperaHusetPage,
   ],
   providers: [
     StatusBar,
