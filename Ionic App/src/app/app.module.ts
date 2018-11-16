@@ -26,6 +26,7 @@ import {QrCodePage} from "../pages/qr-code/qr-code";
 import {WalletPage} from "../pages/wallet/wallet";
 import {ProfileNamePage} from "../pages/profile-name/profile-name";
 import {CommentsOperaHusetPage} from "../pages/discover/opera-huset/comments-opera-huset/comments-opera-huset";
+import {OperaHusetDirectionsPage} from "../pages/discover/opera-huset/opera-huset-directions/opera-huset-directions";
 
 @NgModule({
   declarations: [
@@ -46,6 +47,7 @@ import {CommentsOperaHusetPage} from "../pages/discover/opera-huset/comments-ope
     WalletPage,
     ProfileNamePage,
     CommentsOperaHusetPage,
+    OperaHusetDirectionsPage,
 
   ],
   imports: [
@@ -71,6 +73,8 @@ import {CommentsOperaHusetPage} from "../pages/discover/opera-huset/comments-ope
     WalletPage,
     ProfileNamePage,
     CommentsOperaHusetPage,
+    OperaHusetDirectionsPage,
+
   ],
   providers: [
     StatusBar,

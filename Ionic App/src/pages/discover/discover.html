@@ -12,8 +12,8 @@
 
 
  <div id="content-container">
-    
-      <button id="karljohan" ion-button color="dark" full outline (click)=toKarlJohan()> 
+    <ion-card>
+        <button id="karljohan" ion-button color="dark" full outline (click)=toKarlJohan()>
         <h3 id="kjg">Karl Johans Gate</h3>
         <p id="kjg-adr">Karl Johans Gate</p>
         <p id="kjg-dist">100m</p>
@@ -22,7 +22,11 @@
           <ion-icon color="star" name="ios-star">5</ion-icon>
         </div>
       </button>
-      <button id="akerbrygge" ion-button color="dark" full outline (click)=toAkerBrygge()> 
+
+    </ion-card>
+
+   <ion-card>
+      <button id="akerbrygge" ion-button color="dark" full outline (click)=toAkerBrygge()>
           <h3 id="akb">Aker Brygge</h3>
           <p id="akb-adr">Stranden 1</p>
           <p id="akb-dist">1.6km</p>
@@ -31,7 +35,11 @@
             <ion-icon color="star" name="ios-star">4</ion-icon>
           </div>
         </button>
-        <button id="vikingmuseum" ion-button color="dark" full outline (click)=toVikingMuseum()> 
+   </ion-card>
+
+
+   <ion-card>
+        <button id="vikingmuseum" ion-button color="dark" full outline (click)=toVikingMuseum()>
             <h3 id="vk">Vikingskipshuset</h3>
             <p id="vk-adr">Huk Aveny 35</p>
             <p id="vk-dist">5.8km</p>
@@ -40,7 +48,10 @@
               <ion-icon color="star" name="ios-star">4</ion-icon>
             </div>
           </button>
-          <button id="operahuset" ion-button color="dark" full outline (click)=toOperaHuset()> 
+   </ion-card>
+
+   <ion-card>
+          <button id="operahuset" ion-button color="dark" full outline (click)=toOperaHuset()>
               <h3 id="op">Operahuset</h3>
               <p id="op-adr">Kirsten Flagstads Plass 1</p>
               <p id="op-dist">230m</p>
@@ -49,7 +60,9 @@
                 <ion-icon color="star" name="ios-star">4</ion-icon>
               </div>
             </button>
-            <button id="oslocity" ion-button color="dark" full outline (click)=toOsloCity()> 
+   </ion-card>
+<ion-card>
+            <button id="oslocity" ion-button color="dark" full outline (click)=toOsloCity()>
                 <h3 id="oc">Oslo City</h3>
                 <p id="oc-adr">Stenersgata 1</p>
                 <p id="oc-dist">300m</p>
@@ -58,7 +71,10 @@
                   <ion-icon color="star" name="ios-star">3</ion-icon>
                 </div>
               </button>
-              <button id="holmenkollen" ion-button color="dark" full outline (click)=toOsloCity()> 
+</ion-card>
+
+   <ion-card>
+              <button id="holmenkollen" ion-button color="dark" full outline (click)=toHolmenkollen()>
                   <h3 id="hk">Holmenkollen</h3>
                   <p id="hk-adr">Kongeveien 5</p>
                   <p id="hk-dist">8.9km</p>
@@ -67,6 +83,7 @@
                     <ion-icon color="star" name="ios-star">5</ion-icon>
                   </div>
                 </button>
+   </ion-card>
    </div>
 
 </ion-content>

@@ -1,15 +1,7 @@
-<style>
-  #dayPlan
-  {
-    color: red;
-  }
-
-</style>
-
-<ion-tabs>
+<ion-tabs [selectedIndex]="2">
   <ion-tab [root]="tab1Root" tabTitle="Wallet" tabIcon="cash"></ion-tab>
   <ion-tab [root]="tab2Root" tabTitle="QR Code" tabIcon="camera"></ion-tab>
-  <ion-tab [root]="tab3Root" tabTitle="Day Plan" tabIcon="calendar" id="dayPlan"></ion-tab>
+  <ion-tab [root]="tab3Root" tabTitle="Itinerary" tabIcon="calendar" id="dayPlan"></ion-tab>
   <ion-tab [root]="tab4Root" tabTitle="Discover" tabIcon="compass"></ion-tab>
   <ion-tab [root]="tab5root" tabTitle="Profile" tabIcon="person"></ion-tab>
 </ion-tabs>

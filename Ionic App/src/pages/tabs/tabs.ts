@@ -9,6 +9,7 @@ import {ProfileNamePage} from "../profile-name/profile-name";
 
 @Component({
   templateUrl: 'tabs.html'
+
 })
 export class TabsPage {
 

@@ -44,4 +44,7 @@ export class DiscoverPage {
     this.navCtrl.push(HolmenkollenPage);
   }
 
+
+
+
 }
