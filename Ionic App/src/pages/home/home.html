@@ -1,8 +1,15 @@
 <ion-header>
   <ion-navbar>
+    <ion-buttons start>
+      <button ion-button>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-nav [root]="tabsPage" #nav> </ion-nav>
     <ion-title>Itinerary</ion-title>
   </ion-navbar>
 </ion-header>
+
 <ion-content padding>
 
   <ion-slides>

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {NavController} from 'ionic-angular';
+import {MenuController, NavController} from 'ionic-angular';
 
 import {KarlJohanPage} from "./karl-johan/karl-johan";
 import {AkerBryggePage} from "./aker-brygge/aker-brygge";
@@ -15,7 +15,12 @@ import {HolmenkollenPage} from "./holmenkollen/holmenkollen";
 
 export class DiscoverPage {
 
-  constructor(public navCtrl:NavController){}
+  constructor(
+    public navCtrl:NavController,
+  private menuCtrl:MenuController)
+  {
+
+  }
 
   toKarlJohan()
   {
@@ -44,7 +49,11 @@ export class DiscoverPage {
     this.navCtrl.push(HolmenkollenPage);
   }
 
+openMenu()
+{
+  this.menuCtrl.open();
 
+}
 
 
 }

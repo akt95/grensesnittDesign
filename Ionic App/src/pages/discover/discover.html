@@ -1,6 +1,11 @@
 <ion-header>
 
   <ion-navbar >
+    <ion-buttons start>
+      <button ion-button (click)="openMenu">
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
     <ion-title>Discover</ion-title>
   </ion-navbar>
 
@@ -26,7 +31,7 @@
     </ion-card>
 
    <ion-card>
-      <button id="akerbrygge" ion-button color="dark" full outline (click)=toAkerBrygge()>
+      <button id="akerbrygge" ion-button color="dark" full outline (click)=toAkerBrygge() >
           <h3 id="akb">Aker Brygge</h3>
           <p id="akb-adr">Stranden 1</p>
           <p id="akb-dist">1.6km</p>
