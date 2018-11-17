@@ -43,5 +43,9 @@ export class DiscoverPage {
   {
     this.navCtrl.push(HolmenkollenPage);
   }
+  toVigelandsParken()
+  {
+    this.navCtrl.push(vigeLands)
+  }
 
 }
