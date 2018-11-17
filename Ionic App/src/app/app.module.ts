@@ -29,6 +29,10 @@ import {CommentsOperaHusetPage} from "../pages/discover/opera-huset/comments-ope
 import {OperaHusetDirectionsPage} from "../pages/discover/opera-huset/opera-huset-directions/opera-huset-directions";
 import {SignUpPage} from "../pages/profile-name/sign-up/sign-up";
 import {SignInPage} from "../pages/profile-name/sign-in/sign-in";
+import {MaxBurgerPage} from "../pages/discover/max-burger/max-burger";
+import {GrillerietPage} from "../pages/discover/grilleriet/grilleriet";
+import {LuisVuittonPage} from "../pages/discover/luis-vuitton/luis-vuitton";
+import {MatHallenPage} from "../pages/discover/mat-hallen/mat-hallen";
 
 @NgModule({
   declarations: [
@@ -52,6 +56,11 @@ import {SignInPage} from "../pages/profile-name/sign-in/sign-in";
     OperaHusetDirectionsPage,
     SignUpPage,
     SignInPage,
+    MaxBurgerPage,
+    GrillerietPage,
+    LuisVuittonPage,
+    MatHallenPage,
+
 
   ],
   imports: [
@@ -80,6 +89,10 @@ import {SignInPage} from "../pages/profile-name/sign-in/sign-in";
     OperaHusetDirectionsPage,
     SignUpPage,
     SignInPage,
+    MaxBurgerPage,
+    GrillerietPage,
+    LuisVuittonPage,
+    MatHallenPage,
 
   ],
   providers: [
