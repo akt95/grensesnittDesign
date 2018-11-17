@@ -5,6 +5,56 @@ page-opera-huset {
         height: 17rem;
         width: 100%;
     }
+    #heart{
+       right: 6px; 
+       position: absolute;
+       bottom: 12px;
+       font-size: 185%;
+       
+    }
+    //TEXT
+    #text-container{
+        position: absolute;
+        top: 18rem;
+        left: 16px;
+        width: 34rem;
+        height: 30rem;
+        //border-style: solid;
+        //border-color: black;
+    }
+    #rating{
+        text-align: center;
+        text-size-adjust: 10px;
+        font-size: 160%;
+        padding: 0px;
+    }
+
+    #upper-text{
+        text-align: center;
+        font-size: 120%;
+        
+    }
+    #mid-text{
+        text-align: center;
+        font-size: 130%;
+
+    }
+    #line{
+        position: absolute;
+        height: 1px;
+        width: 403px;
+        background-color: grey;
+        top: 15rem;
+        //left: -16px;
+        right: -25px;
+    }
+    #low-text{
+        position: absolute;
+        text-align: center;
+        bottom: 6rem;
+        font-size: 130%;
+    }
+    
     #btn{
         position: absolute;
         width: 90%;
@@ -13,9 +63,7 @@ page-opera-huset {
         left: 16px;
         right: 16px;
     }
-    .dir-btn{
-        
-    }
+    
     .com-btn{
         height: 80%;
         width: 15rem;

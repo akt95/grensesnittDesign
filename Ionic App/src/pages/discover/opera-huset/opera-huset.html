@@ -1,17 +1,33 @@
 <ion-header>
+    
 
   <ion-navbar>
-    <ion-title>OperaHuset</ion-title>
+      <ion-icon id="heart" name="heart" color="red"></ion-icon>
+    <ion-title>Operahuset</ion-title>
   </ion-navbar>
 
 </ion-header>
   
 
 <ion-content>
-    <img id="op-pic" src="/assets/imgs/operamain.jpg"><img/>
+    <img id="op-pic" src="/assets/imgs/Opera.jpeg" alt="Picture of the operahouse"><img/>
+    <div id="text-container">
+      <div id="rating">
+          <ion-icon name="star" color="star"></ion-icon>
+          <ion-icon name="star" color="star"></ion-icon>
+          <ion-icon name="star" color="star"></ion-icon>
+          <ion-icon name="star" color="star"></ion-icon>
+          <ion-icon name="star-outline"></ion-icon>
+      </div>
+      <p id="upper-text">Adress: Kirsten Flagstads plass 1, 0150 Oslo
+        Telephone: +4721422100
+      </p>
+      <p id="mid-text">Usually people spend 30 min at this location</p>
+      <div id="line"></div>
+      <p id="low-text">Kort oppsummering om operaen skal plasseres her her her her her her her her her</p>
+    </div>
     <div id="btn">
         <button ion-button class="com-btn" color="com" block (click) =toComment()>COMMENTS</button>
         <button ion-button class="dir-btn" block (click)=toDirection() >DIRECTIONS</button>
     </div>
 </ion-content>
-

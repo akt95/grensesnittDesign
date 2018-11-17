@@ -1,244 +1,250 @@
 page-discover {
-    //KARL JOHAN PROPERTIES-------------
-    #karljohan{
-      padding: 0px;
-      margin-top: 0px;
-      margin-bottom: 0px;
-      border-top: none; 
-      border-bottom-color: #d9d9d9;
-      height: 92px;  
-    }
-    #kjg-img{
-      width: 53px;
-      height: 63.6px;
-      border-radius: 5px;
-      position: absolute;
-      left: 16px;
-    }
-    #kjg{
-      position: absolute;
-      bottom: 40px;
-      left: 80px;
-    }
-    #kjg-adr{
-      position: absolute;
-      bottom: 10px;
-      left: 80px;
-      color: #d9d9d9;
-    }
-    #kjg-dist{
-      position: absolute;
-      bottom: 40px;
-      right: 16px;
-      font-size: 80%;
-      color: #d9d9d9;
-    }
-    #kjg-rate{
-      position: absolute;
-      right: 16px;
-      bottom: 25px;
-    }
-    //AKER BRYGGE PROPERTIES-------------
-    #akerbrygge{
-      padding: 0px;
-      margin-top: 0px;
-      margin-bottom: 0px;
-      border-top: none; 
-      border-bottom-color: #d9d9d9;
-      height: 92px; 
-    }
-    #akb-img{
-      width: 53px;
-      height: 63.6px;
-      border-radius: 5px;
-      position: absolute;
-      left: 16px;
-    }
-    #akb{
-      position: absolute;
-      bottom: 40px;
-      left: 80px;
-    }
-    #akb-adr{
-      position: absolute;
-      bottom: 10px;
-      left: 80px;
-      color: #d9d9d9;
-      
-    }
-    #akb-dist{
-      position: absolute;
-      bottom: 40px;
-      right: 16px;
-      font-size: 80%;
-      color: #d9d9d9;
-    }
-    #akb-rate{
-      position: absolute;
-      right: 16px;
-      bottom: 25px;
-    }
-    //VIKINGMUSEET PROPERTIES--------------
-    #vikingmuseum{
-      padding: 0px;
-      margin-top: 0px;
-      margin-bottom: 0px;
-      border-top: none; 
-      border-bottom-color: #d9d9d9;
-      height: 92px; 
-    }
-    #vk-img{
-      width: 53px;
-      height: 63.6px;
-      border-radius: 5px;
-      position: absolute;
-      left: 16px;
-    }
-    #vk{
-      position: absolute;
-      bottom: 40px;
-      left: 80px;
-    }
-    #vk-adr{
-      position: absolute;
-      bottom: 10px;
-      left: 80px;
-      color: #d9d9d9;
-      
-    }
-    #vk-dist{
-      position: absolute;
-      bottom: 40px;
-      right: 16px;
-      font-size: 80%;
-      color: #d9d9d9;
-    }
-    #vk-rate{
-      position: absolute;
-      right: 16px;
-      bottom: 25px;
-    }
-    //OSLO CITY PROPERTIES-----------------------
-    #oslocity{
-      padding: 0px;
-      margin-top: 0px;
-      margin-bottom: 0px;
-      border-top: none; 
-      border-bottom-color: #d9d9d9;
-      height: 92px;  
-    }
-    #oc-img{
-      width: 53px;
-      height: 63.6px;
-      border-radius: 5px;
-      position: absolute;
-      left: 16px;
-    }
-    #oc{
-      position: absolute;
-      bottom: 40px;
-      left: 80px;
-    }
-    #oc-adr{
-      position: absolute;
-      bottom: 10px;
-      left: 80px;
-      color: #d9d9d9;
-      
-    }
-    #oc-dist{
-      position: absolute;
-      bottom: 40px;
-      right: 16px;
-      font-size: 80%;
-      color: #d9d9d9;
-    }
-    #oc-rate{
-      position: absolute;
-      right: 16px;
-      bottom: 25px;
-    }
-    //OPERAHUSET PROPERTIES-----------
-    #operahuset{
-      padding: 0px;
-      margin-top: 0px;
-      margin-bottom: 0px;
-      border-top: none; 
-      border-bottom-color: #d9d9d9;
-      height: 92px; 
-    }
-    #op-img{
-      width: 53px;
-      height: 63.6px;
-      border-radius: 5px;
-      position: absolute;
-      left: 16px;
-    }
-    #op{
-      position: absolute;
-      bottom: 40px;
-      left: 80px;
-    }
-    #op-adr{
-      position: absolute;
-      bottom: 10px;
-      left: 80px;
-      color: #d9d9d9;
-      
-    }
-    #op-dist{
-      position: absolute;
-      bottom: 40px;
-      right: 16px;
-      font-size: 80%;
-      color: #d9d9d9;
-    }
-    #op-rate{
-      position: absolute;
-      right: 16px;
-      bottom: 25px;
-    }
-    //HOLMENKOLLEN PROPERTIES-------------
-    #holmenkollen{
-      padding: 0px;
-      margin-top: 0px;
-      margin-bottom: 0px;
-      border-top: none; 
-      border-bottom-color: #d9d9d9;
-      height: 92px; 
-    }
-    #hk-img{
-      width: 53px;
-      height: 63.6px;
-      border-radius: 5px;
-      position: absolute;
-      left: 16px;
-    }
-    #hk{
-      position: absolute;
-      bottom: 40px;
-      left: 80px;
-    }
-    #hk-adr{
-      position: absolute;
-      bottom: 10px;
-      left: 80px;
-      color: #d9d9d9;
-      
-    }
-    #hk-dist{
-      position: absolute;
-      bottom: 40px;
-      right: 16px;
-      font-size: 80%;
-      color: #d9d9d9;
-    }
-    #hk-rate{
-      position: absolute;
-      right: 16px;
-      bottom: 25px;
-    }
+  //KARL JOHAN PROPERTIES-------------
+  #karljohan{
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: none; 
+    border-bottom-color: #d9d9d9;
+    height: 92px;  
+  }
+  #kjg-img{
+    width: 53px;
+    height: 63.6px;
+    border-radius: 5px;
+    position: absolute;
+    left: 16px;
+  }
+  #kjg{
+    position: absolute;
+    bottom: 40px;
+    left: 80px;
+    color: black;
+  }
+  #kjg-adr{
+    position: absolute;
+    bottom: 10px;
+    left: 80px;
+    color: #d9d9d9;
+  }
+  #kjg-dist{
+    position: absolute;
+    bottom: 40px;
+    right: 16px;
+    font-size: 80%;
+    color: #d9d9d9;
+  }
+  #kjg-rate{
+    position: absolute;
+    right: 16px;
+    bottom: 25px;
+  }
+  //AKER BRYGGE PROPERTIES-------------
+  #akerbrygge{
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: none; 
+    border-bottom-color: #d9d9d9;
+    height: 92px; 
+  }
+  #akb-img{
+    width: 53px;
+    height: 63.6px;
+    border-radius: 5px;
+    position: absolute;
+    left: 16px;
+  }
+  #akb{
+    position: absolute;
+    bottom: 40px;
+    left: 80px;
+    color: black;
+  }
+  #akb-adr{
+    position: absolute;
+    bottom: 10px;
+    left: 80px;
+    color: #d9d9d9;
     
+  }
+  #akb-dist{
+    position: absolute;
+    bottom: 40px;
+    right: 16px;
+    font-size: 80%;
+    color: #d9d9d9;
+  }
+  #akb-rate{
+    position: absolute;
+    right: 16px;
+    bottom: 25px;
+  }
+  //VIKINGMUSEET PROPERTIES--------------
+  #vikingmuseum{
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: none; 
+    border-bottom-color: #d9d9d9;
+    height: 92px; 
+  }
+  #vk-img{
+    width: 53px;
+    height: 63.6px;
+    border-radius: 5px;
+    position: absolute;
+    left: 16px;
+  }
+  #vk{
+    position: absolute;
+    bottom: 40px;
+    left: 80px;
+    color: black;
+  }
+  #vk-adr{
+    position: absolute;
+    bottom: 10px;
+    left: 80px;
+    color: #d9d9d9;
     
+  }
+  #vk-dist{
+    position: absolute;
+    bottom: 40px;
+    right: 16px;
+    font-size: 80%;
+    color: #d9d9d9;
+  }
+  #vk-rate{
+    position: absolute;
+    right: 16px;
+    bottom: 25px;
+  }
+  //OSLO CITY PROPERTIES-----------------------
+  #oslocity{
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: none; 
+    border-bottom-color: #d9d9d9;
+    height: 92px;  
+  }
+  #oc-img{
+    width: 53px;
+    height: 63.6px;
+    border-radius: 5px;
+    position: absolute;
+    left: 16px;
+  }
+  #oc{
+    position: absolute;
+    bottom: 40px;
+    left: 80px;
+    color: black;
+  }
+  #oc-adr{
+    position: absolute;
+    bottom: 10px;
+    left: 80px;
+    color: #d9d9d9;
     
-    }
+  }
+  #oc-dist{
+    position: absolute;
+    bottom: 40px;
+    right: 16px;
+    font-size: 80%;
+    color: #d9d9d9;
+  }
+  #oc-rate{
+    position: absolute;
+    right: 16px;
+    bottom: 25px;
+  }
+  //OPERAHUSET PROPERTIES-----------
+  #operahuset{
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: none; 
+    border-bottom-color: #d9d9d9;
+    height: 92px; 
+  }
+  #op-img{
+    width: 53px;
+    height: 63.6px;
+    border-radius: 5px;
+    position: absolute;
+    left: 16px;
+  }
+  #op{
+    position: absolute;
+    bottom: 40px;
+    left: 80px;
+    color: black;
+  }
+  #op-adr{
+    position: absolute;
+    bottom: 10px;
+    left: 80px;
+    color: #d9d9d9;
+    
+  }
+  #op-dist{
+    position: absolute;
+    bottom: 40px;
+    right: 16px;
+    font-size: 80%;
+    color: #d9d9d9;
+  }
+  #op-rate{
+    position: absolute;
+    right: 16px;
+    bottom: 25px;
+  }
+  //HOLMENKOLLEN PROPERTIES-------------
+  #holmenkollen{
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: none; 
+    border-bottom-color: #d9d9d9;
+    height: 92px; 
+  }
+  #hk-img{
+    width: 53px;
+    height: 63.6px;
+    border-radius: 5px;
+    position: absolute;
+    left: 16px;
+  }
+  #hk{
+    position: absolute;
+    bottom: 40px;
+    left: 80px;
+    color: black;
+  }
+  #hk-adr{
+    position: absolute;
+    bottom: 10px;
+    left: 80px;
+    color: #d9d9d9;
+    
+  }
+  #hk-dist{
+    position: absolute;
+    bottom: 40px;
+    right: 16px;
+    font-size: 80%;
+    color: #d9d9d9;
+  }
+  #hk-rate{
+    position: absolute;
+    right: 16px;
+    bottom: 25px;
+  }
+  
+  
+  
+  }
