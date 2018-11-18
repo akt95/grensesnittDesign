@@ -21,7 +21,6 @@ import {VikingMuseumPage} from "../pages/discover/viking-museum/viking-museum";
 import {OperaHusetPage} from "../pages/discover/opera-huset/opera-huset";
 import {HolmenkollenPage} from "../pages/discover/holmenkollen/holmenkollen";
 import {OsloCityPage} from "../pages/discover/oslo-city/oslo-city";
-import {ChatPage} from "../pages/chat/chat";
 import {QrCodePage} from "../pages/qr-code/qr-code";
 import {WalletPage} from "../pages/wallet/wallet";
 import {ProfileNamePage} from "../pages/profile-name/profile-name";
@@ -33,6 +32,7 @@ import {MaxBurgerPage} from "../pages/discover/max-burger/max-burger";
 import {GrillerietPage} from "../pages/discover/grilleriet/grilleriet";
 import {LuisVuittonPage} from "../pages/discover/luis-vuitton/luis-vuitton";
 import {MatHallenPage} from "../pages/discover/mat-hallen/mat-hallen";
+import {ChatPage} from "../pages/chat/chat";
 
 @NgModule({
   declarations: [
