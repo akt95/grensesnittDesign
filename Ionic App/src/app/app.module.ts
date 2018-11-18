@@ -31,7 +31,7 @@ import {SignUpPage} from "../pages/profile-name/sign-up/sign-up";
 import {SignInPage} from "../pages/profile-name/sign-in/sign-in";
 import {MaxBurgerPage} from "../pages/discover/max-burger/max-burger";
 import {GrillerietPage} from "../pages/discover/grilleriet/grilleriet";
-import {LuisVuittonPage} from "../pages/discover/luis-vuitton/luis-vuitton";
+import {LouisVuittonPage} from "../pages/discover/louis-vuitton/louis-vuitton";
 import {MatHallenPage} from "../pages/discover/mat-hallen/mat-hallen";
 import {ChatPage} from "../pages/discover/opera-huset/comments-opera-huset/chat/chat";
 
@@ -60,7 +60,7 @@ import {ChatPage} from "../pages/discover/opera-huset/comments-opera-huset/chat/
     SignInPage,
     MaxBurgerPage,
     GrillerietPage,
-    LuisVuittonPage,
+    LouisVuittonPage,
     MatHallenPage,
 
 
@@ -93,7 +93,7 @@ import {ChatPage} from "../pages/discover/opera-huset/comments-opera-huset/chat/
     SignInPage,
     MaxBurgerPage,
     GrillerietPage,
-    LuisVuittonPage,
+    LouisVuittonPage,
     MatHallenPage,
 
   ],

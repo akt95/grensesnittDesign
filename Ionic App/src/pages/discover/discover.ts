@@ -9,7 +9,7 @@ import {OperaHusetPage} from"./opera-huset/opera-huset";
 import {HolmenkollenPage} from "./holmenkollen/holmenkollen";
 import {MatHallenPage} from "./mat-hallen/mat-hallen";
 import {MaxBurgerPage} from "./max-burger/max-burger";
-import {LuisVuittonPage} from "./luis-vuitton/luis-vuitton";
+import {LouisVuittonPage} from "./louis-vuitton/louis-vuitton";
 import {GrillerietPage} from "./grilleriet/grilleriet";
 
 @Component({
@@ -17,7 +17,11 @@ import {GrillerietPage} from "./grilleriet/grilleriet";
   templateUrl: 'discover.html',
 })
 
+
+
 export class DiscoverPage {
+
+
 
   constructor(
     public navCtrl:NavController,
@@ -61,9 +65,9 @@ export class DiscoverPage {
   {
     this.navCtrl.push(MaxBurgerPage);
   }
-  toLuisVuitton()
+  toLouisVuitton()
   {
-    this.navCtrl.push(LuisVuittonPage);
+    this.navCtrl.push(LouisVuittonPage);
   }
   toGrilleriet()
   {

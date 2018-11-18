@@ -1,0 +1,45 @@
+[
+  {"Name": "Gucci",
+       "Address": {"Street": "Nedre Slottsgate 8",
+          "City": "Oslo",
+          "Postcode": "0157",
+          "Location": "Steen og Strøm"},
+      "Stars": 5,
+      "Website": "http://www.steenogstromoslo.no/stores/ground-floor/gucci",
+      "Comments": [
+          {
+              "id": 1,
+              "content": "This place is so cool!",
+              "original_comment": null
+          },
+          {
+              "id": 2,
+              "content": "I don't think it's cool.",
+              "original_comment": 1
+          }],
+      "Favorited": 0,
+      "Description": "A place to spend lots of money",
+      "Type": "Shopping",
+      "Duration": 30,
+      "Photo_Link": "photo.png"},
+
+  {"Name": "Munch Museum",
+      "Address": {
+          "Street": "Tøyengata 53",
+          "City": "Oslo",
+          "Postcode": "0578",
+          "Location": ""
+      },
+      "Stars": 5,
+      "Website": "https://munchmuseet.no/",
+      "Comments": [{"id": 1,
+          "content": "This place is so cool!",
+          "original_comment": null},
+          {"id": 2,
+              "content": "I don't think it's cool.",
+              "original_comment": 1}],
+      "Favorited": 0,
+      "Description": "A museum of art things",
+      "Type": "Culture",
+      "Duration": 30,
+      "Photo_Link": "photo.png"}];

@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the LuisVuittonPage page.
+ * Generated class for the louisVuittonPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -10,16 +10,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-luis-vuitton',
-  templateUrl: 'luis-vuitton.html',
+  selector: 'page-louis-vuitton',
+  templateUrl: 'louis-vuitton.html',
 })
-export class LuisVuittonPage {
+export class LouisVuittonPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad LuisVuittonPage');
+    console.log('ionViewDidLoad LouisVuittonPage');
   }
 
 }
