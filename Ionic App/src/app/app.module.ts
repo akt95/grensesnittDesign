@@ -32,7 +32,7 @@ import {MaxBurgerPage} from "../pages/discover/max-burger/max-burger";
 import {GrillerietPage} from "../pages/discover/grilleriet/grilleriet";
 import {LuisVuittonPage} from "../pages/discover/luis-vuitton/luis-vuitton";
 import {MatHallenPage} from "../pages/discover/mat-hallen/mat-hallen";
-import {ChatPage} from "../pages/chat/chat";
+
 
 @NgModule({
   declarations: [
