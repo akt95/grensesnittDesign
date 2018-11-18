@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
+
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
@@ -30,10 +31,10 @@ import {SignUpPage} from "../pages/profile-name/sign-up/sign-up";
 import {SignInPage} from "../pages/profile-name/sign-in/sign-in";
 import {MaxBurgerPage} from "../pages/discover/max-burger/max-burger";
 import {GrillerietPage} from "../pages/discover/grilleriet/grilleriet";
-import {LuisVuittonPage} from "../pages/discover/luis-vuitton/luis-vuitton";
+import {LouisVuittonPage} from "../pages/discover/louis-vuitton/louis-vuitton";
 import {MatHallenPage} from "../pages/discover/mat-hallen/mat-hallen";
 import {ChatPage} from "../pages/discover/opera-huset/comments-opera-huset/chat/chat";
-import {HolmenkollenClickHerePage} from "../pages/discover/holmenkollen/holmenkollen-click-here/holmenkollen-click-here";
+import {OperaWriteCommentPage} from "../pages/discover/opera-huset/comments-opera-huset/opera-write-comment/opera-write-comment";
 
 
 @NgModule({
@@ -55,14 +56,14 @@ import {HolmenkollenClickHerePage} from "../pages/discover/holmenkollen/holmenko
     ProfileNamePage,
     CommentsOperaHusetPage,
     OperaHusetDirectionsPage,
+    OperaWriteCommentPage,
     OperaInfoPage,
     SignUpPage,
     SignInPage,
     MaxBurgerPage,
     GrillerietPage,
-    LuisVuittonPage,
+    LouisVuittonPage,
     MatHallenPage,
-    HolmenkollenClickHerePage,
 
 
   ],
@@ -94,9 +95,9 @@ import {HolmenkollenClickHerePage} from "../pages/discover/holmenkollen/holmenko
     SignInPage,
     MaxBurgerPage,
     GrillerietPage,
-    LuisVuittonPage,
+    LouisVuittonPage,
     MatHallenPage,
-    HolmenkollenClickHerePage,
+    OperaWriteCommentPage,
 
   ],
   providers: [
