@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
-import { AboutPage } from '../pages/about/about';
+
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
@@ -39,7 +39,6 @@ import {ChatPage} from "../pages/discover/opera-huset/comments-opera-huset/chat/
 @NgModule({
   declarations: [
     MyApp,
-    AboutPage,
     ContactPage,
     HomePage,
     DiscoverPage,
@@ -73,7 +72,6 @@ import {ChatPage} from "../pages/discover/opera-huset/comments-opera-huset/chat/
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    AboutPage,
     DiscoverPage,
     KarlJohanPage,
     ContactPage,
