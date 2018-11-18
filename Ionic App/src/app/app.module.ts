@@ -34,6 +34,7 @@ import {GrillerietPage} from "../pages/discover/grilleriet/grilleriet";
 import {LouisVuittonPage} from "../pages/discover/louis-vuitton/louis-vuitton";
 import {MatHallenPage} from "../pages/discover/mat-hallen/mat-hallen";
 import {ChatPage} from "../pages/discover/opera-huset/comments-opera-huset/chat/chat";
+import {OperaWriteCommentPage} from "../pages/discover/opera-huset/comments-opera-huset/opera-write-comment/opera-write-comment";
 
 
 @NgModule({
@@ -55,6 +56,7 @@ import {ChatPage} from "../pages/discover/opera-huset/comments-opera-huset/chat/
     ProfileNamePage,
     CommentsOperaHusetPage,
     OperaHusetDirectionsPage,
+    OperaWriteCommentPage,
     OperaInfoPage,
     SignUpPage,
     SignInPage,
@@ -95,6 +97,7 @@ import {ChatPage} from "../pages/discover/opera-huset/comments-opera-huset/chat/
     GrillerietPage,
     LouisVuittonPage,
     MatHallenPage,
+    OperaWriteCommentPage,
 
   ],
   providers: [
