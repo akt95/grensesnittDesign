@@ -6,15 +6,36 @@
 -->
 <ion-header>
 
-  <ion-navbar>
-    <ion-title>signIn</ion-title>
-  </ion-navbar>
-
-</ion-header>
-
-
-<ion-content padding>
-<button ion-button (click)= toSetting()>Setting</button>
-<button ion-button (click)= toPersonalQR()> Personal QR</button>
-<button ion-button (click)= toCoupons()>Coupons</button>
-</ion-content>
+    <ion-navbar>
+      <ion-title>Profile</ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content>
+    <div id="personal-card">
+      
+        <img id="pic" src="/assets/imgs/hai-wong.jpg"><img/>
+        <p id="name">HAI WONG</p>
+      
+    </div>
+  
+    <div id="cards">
+    <ion-card>  
+      <button ion-button block color="hvit" (click)= toSetting()>Setting</button>
+  </ion-card>
+  <img id="settings-pic" src="/assets/imgs/settings.png"><img/>
+  
+  <ion-card>
+    <button ion-button block color="hvit" (click)= toPersonalQR()> Personal QR</button>
+  </ion-card>
+  <img id="qr-pic" src="/assets/imgs/qrinfo.png"><img/>
+  
+  <ion-card>
+    <button ion-button block color="hvit" (click)= toCoupons()>Coupons</button>
+  </ion-card>
+  <img id="coupon-pic" src="/assets/imgs/printable-coupons.jpg"><img/>
+  </div>
+  
+  </ion-content>
