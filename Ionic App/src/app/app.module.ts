@@ -35,6 +35,7 @@ import {LuisVuittonPage} from "../pages/discover/luis-vuitton/luis-vuitton";
 import {MatHallenPage} from "../pages/discover/mat-hallen/mat-hallen";
 import {ChatPage} from "../pages/discover/opera-huset/comments-opera-huset/chat/chat";
 
+
 @NgModule({
   declarations: [
     MyApp,
