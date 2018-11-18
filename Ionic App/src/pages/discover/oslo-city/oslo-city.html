@@ -1,18 +1,38 @@
-<!--
-  Generated template for the OsloCityPage page.
-
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
 <ion-header>
+    
 
-  <ion-navbar>
-    <ion-title>OsloCity</ion-title>
-  </ion-navbar>
-
-</ion-header>
-
-
-<ion-content padding>
-
-</ion-content>
+    <ion-navbar>
+        <ion-icon id="heart" name="heart-outline"></ion-icon>
+      <ion-title>Oslo City</ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+    
+  
+  <ion-content>
+      <img id="op-pic" src="../../../assets/imgs/oslocity.jpeg" alt="Oslo City"><img/>
+      <div id="text-container">
+          <div id="rating">
+              <ion-icon name="star" color="star"></ion-icon>
+              <ion-icon name="star" color="star"></ion-icon>
+              <ion-icon name="star" color="star"></ion-icon>
+              <ion-icon name="star" color="star"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+          </div>
+  
+      <div id="upper-text">
+        <p>Stenersgata 1, 0050 Oslo<br>
+      </div>
+  
+        <div id="low-text">
+          <p>Oslo City is a Norwegian shopping center located on Vaterland in Oslo, close to Oslo S and Oslo Plaza. 
+            It is one of Norway's largest shopping centers, both in terms of area and turnover. They had a turnover of 
+            NOK 1.85 billion in 2015. Oslo City is owned by Steen & Strøm and is 79,791 square meters in size.<br>
+           </p>
+        </div>
+      </div>
+      <div id="btn">
+          <button ion-button class="com-btn" color="com" block (click) =toComment()>COMMENTS</button>
+          <button ion-button class="dir-btn" block (click)=toDirection() >DIRECTIONS</button>
+      </div>
+  </ion-content>
