@@ -1,17 +1,31 @@
-
 <ion-header>
+    
 
-  <ion-navbar>
-    <ion-title>Aker-Brygge</ion-title>
-  </ion-navbar>
+    <ion-navbar>
+      <ion-title>Holmenkollen</ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+    
+  
+  <ion-content>
+      <img id="op-pic" src="../../../assets/imgs/AkerBrygge.jpg" alt="Picture of Aker Brygge"><img/>
+      <div id="text-container">
 
-</ion-header>
 
+      <div id="upper-text">
+        <p>Address: Dokkveien, 0250 Oslo<br>
+      </div>
 
-<ion-content padding>
-<p>Welcome to Aker-Brygge</p>
-</ion-content>
-
-<ion-footer padding>
-  Seaside
-</ion-footer>
+        <div id="low-text">
+          <p>Aker Brygge is known for its strip of restaurants along the boardwalk, with plenty of opportunities for al fresco wining and dining. <br>
+            There's also a wide selection of fashion shops, if you want to renew your wardrobe. <br>On sunny days, Aker Brygge is teeming with activity round the clock, and it doesn't cost you anything to wander along the quay and enjoy the fresh sea air.<br>
+           </p>
+        </div>
+      </div>
+      <div id="btn">
+          <button ion-button class="com-btn" color="com" block (click) =toComment()>COMMENTS</button>
+          <button ion-button class="dir-btn" block (click)=toDirection() >DIRECTIONS</button>
+      </div>
+  </ion-content>
+  
