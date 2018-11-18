@@ -1,3 +1,84 @@
 page-chat {
+    //FIRST MESSAGE
+    #msg-1{
+        position: absolute;
+        width: 24rem;
+        height: 10rem;
+        display: inline-flex;
+        font-size: 80%;
+        right: 1rem;
+        border-radius: 5px;
+        top: 2rem;
+        background-color: #f4f4f4;
+    }
+    #hai{ 
+        position: absolute;
+        width: 6rem;
+        height: 7rem;
+        border-radius: 5px;
+        right: 1rem;
+        top: 1rem;
+    }
+        #txt1{
+        position: absolute;
+        width: 13rem;
+        height: 7rem;
+        top: 3rem;
+        right: 10rem;
+    }
+    //SECOND MESSAGE
+    #msg-2{
+        position: absolute;
+        width: 24rem;
+        height: 10rem;
+        display: inline-flex;
+        font-size: 80%;
+        left: 1rem;
+        border-radius: 5px;
+        top: 15rem;
+        background-color: #1cae3c;
+    }
+    #picture2{ 
+        position: absolute;
+        width: 6rem;
+        height: 7rem;
+        border-radius: 5px;
+        left: 1rem;
+        top: 1rem;
+    }
+        #txt2{
+        position: absolute;
+        width: 13rem;
+        height: 7rem;
+        top: 15rem;
+        left: 11rem;
+    }
+    //THIRD MESSAGE
+    #msg-3{
+        position: absolute;
+        width: 24rem;
+        height: 10rem;
+        display: inline-flex;
+        font-size: 80%;
+        left: 1rem;
+        border-radius: 5px;
+        top: 28rem;
+        background-color: #1cae3c;
+    }
+    #picture3{ 
+        position: absolute;
+        width: 6rem;
+        height: 7rem;
+        border-radius: 5px;
+        left: 1rem;
+        top: 1rem;
+    }
+        #txt3{
+        position: absolute;
+        width: 13rem;
+        height: 7rem;
+        top: 28rem;
+        left: 11rem;
+    }
 
 }
