@@ -1,18 +1,33 @@
-<!--
-  Generated template for the GrillerietPage page.
-
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
 <ion-header>
+    
 
   <ion-navbar>
+      <ion-icon id="heart" name="heart-outline"></ion-icon>
     <ion-title>Grilleriet</ion-title>
   </ion-navbar>
 
 </ion-header>
+  
 
+<ion-content>
+    <img id="op-pic" src="../../../assets/imgs/grilleriet.jpg" alt="Grilleriet"><img/>
+    <div id="text-container">
 
-<ion-content padding>
+    <div id="upper-text">
+      <p>Address: Storgata 21, 0184 Oslo<br>
+    </div>
 
+      <div id="low-text">
+        <p>When you enter the Folketeater Passage you will be greeted by an enchanting scent of smoldering charcoal. This is Grilleriet.<br>
+          Inside our doors a welcoming room, a cozy bar in the middle of the restaurant and a large and open kitchen are waiting.<br>
+          Much of Grilleriet's unique character is the food cooked on a charcoal grill for indoor use. The grill is the very heart of 
+          the restaurant and ensures that the food keeps its juicyness.<br>
+         </p>
+      </div>
+    </div>
+    <div id="btn">
+        <button ion-button class="com-btn" color="com" block (click) =toComment()>COMMENTS</button>
+        <button ion-button class="dir-btn" block (click)=toDirection() >DIRECTIONS</button>
+    </div>
 </ion-content>
+
