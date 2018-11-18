@@ -36,6 +36,11 @@ import {MatHallenPage} from "../pages/discover/mat-hallen/mat-hallen";
 import {ChatPage} from "../pages/discover/opera-huset/comments-opera-huset/chat/chat";
 import {OperaWriteCommentPage} from "../pages/discover/opera-huset/comments-opera-huset/opera-write-comment/opera-write-comment";
 import {HolmenkollenClickHerePage} from "../pages/discover/holmenkollen/holmenkollen-click-here/holmenkollen-click-here";
+import {PersonalQrPage} from "../pages/profile-name/sign-in/personal-qr/personal-qr";
+import {SettingPage} from "../pages/profile-name/sign-in/setting/setting";
+import {CouponsPage} from "../pages/profile-name/sign-in/coupons/coupons";
+import {QrStep1Page} from "../pages/wallet/qr-step1/qr-step1";
+import {QrStep2Page} from "../pages/wallet/qr-step2/qr-step2";
 
 
 @NgModule({
@@ -66,6 +71,11 @@ import {HolmenkollenClickHerePage} from "../pages/discover/holmenkollen/holmenko
     LouisVuittonPage,
     MatHallenPage,
     HolmenkollenClickHerePage,
+    PersonalQrPage,
+    SettingPage,
+    CouponsPage,
+    QrStep1Page,
+    QrStep2Page,
 
 
   ],
@@ -101,6 +111,11 @@ import {HolmenkollenClickHerePage} from "../pages/discover/holmenkollen/holmenko
     MatHallenPage,
     HolmenkollenClickHerePage,
     OperaWriteCommentPage,
+    PersonalQrPage,
+    SettingPage,
+    CouponsPage,
+    QrStep1Page,
+    QrStep2Page,
 
   ],
   providers: [

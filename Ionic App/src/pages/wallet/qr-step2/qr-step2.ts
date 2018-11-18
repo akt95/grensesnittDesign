@@ -1,10 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import {QrStep1Page} from "./qr-step1/qr-step1";
-import {QrStep2Page} from "./qr-step2/qr-step2";
 
 /**
- * Generated class for the WalletPage page.
+ * Generated class for the QrStep2Page page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -12,18 +10,16 @@ import {QrStep2Page} from "./qr-step2/qr-step2";
 
 @IonicPage()
 @Component({
-  selector: 'page-wallet',
-  templateUrl: 'wallet.html',
+  selector: 'page-qr-step2',
+  templateUrl: 'qr-step2.html',
 })
-export class WalletPage {
+export class QrStep2Page {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad WalletPage');
+    console.log('ionViewDidLoad QrStep2Page');
   }
 
-  toQr1(){this.navCtrl.push(QrStep1Page);}
-  toQr2(){this.navCtrl.push(QrStep2Page);}
 }

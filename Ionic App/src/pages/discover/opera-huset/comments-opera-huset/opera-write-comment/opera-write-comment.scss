@@ -1,3 +1,25 @@
 page-opera-write-comment {
 
-}
+       #fields{
+            position: absolute;
+            top: 150px;
+            width: 280px;
+            left: 4.9rem;
+            text-align: center;
+        }
+
+        #post-comment-btn{
+            position: absolute;
+            top: 450px;
+            width: 260px;
+            height: 3 rem;
+            left: 6rem;
+            
+        }
+
+        #box{
+            height: 200px;
+            text-align: center;
+        }
+
+    }
