@@ -12,19 +12,11 @@
 
 </ion-header>
 
-
-<ion-content >
-<div>
-  <ion-input type="text" [(ngModel)]="encodeText"></ion-input>
-  <button ion-button block (click) ="encode()">Encode</button>
-</div>
-
+<ion-content>
   <div>
-  <button ion-button block (click) ="scan()">Scan</button>
-    <div *ngIf="scannedData.text">
-    <label>Your code is </label>
-    <br>
-    <span>{{scannedData.text}}</span>
-    </div>
-</div>
+<img src="../../assets/imgs/QR%20Step%201.png" id="qrScanImg" >
+  <div>
+  <button ion-button block (click) =toScan() id="scanButton">Scan</button>
+  </div>
+  </div>
 </ion-content>

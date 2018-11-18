@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController } from 'ionic-angular';
 import {BarcodeScanner, BarcodeScannerOptions} from "@ionic-native/barcode-scanner";
+import {QrScanPage} from "./qr-scan/qr-scan";
 
 
 @IonicPage()
@@ -19,28 +20,10 @@ export class QrCodePage {
 
   }
 
-  scan() {
-    this.options =
-      {
-        prompt: "Scan your code."
-      };
-
-    this.scanner.scan(this.options).then((data) => {
-        this.scannedData = data;
-      }, (err) => {
-        console.log('Error: ', err);
-      }
-    )
-  }
-
-
-  encode() {
-    this.scanner.encode(this.scanner.Encode.TEXT_TYPE, this.encodeText).then((data) => {
-      this.encodeData = data;
-    }, (err) => {
-      console.log('Error: ', err);
-    })
-  }
+ toScan()
+ {
+   this.navCtrl.push(QrScanPage);
+ }
 }
 
 

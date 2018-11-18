@@ -41,6 +41,8 @@ import {SettingPage} from "../pages/profile-name/sign-in/setting/setting";
 import {CouponsPage} from "../pages/profile-name/sign-in/coupons/coupons";
 import {QrStep1Page} from "../pages/wallet/qr-step1/qr-step1";
 import {QrStep2Page} from "../pages/wallet/qr-step2/qr-step2";
+import {QrScanPage} from "../pages/qr-code/qr-scan/qr-scan";
+import {QrScan2Page} from "../pages/qr-code/qr-scan/qr-scan2/qr-scan2";
 
 
 @NgModule({
@@ -76,6 +78,8 @@ import {QrStep2Page} from "../pages/wallet/qr-step2/qr-step2";
     CouponsPage,
     QrStep1Page,
     QrStep2Page,
+    QrScanPage,
+    QrScan2Page,
 
 
   ],
@@ -116,6 +120,8 @@ import {QrStep2Page} from "../pages/wallet/qr-step2/qr-step2";
     CouponsPage,
     QrStep1Page,
     QrStep2Page,
+    QrScanPage,
+    QrScan2Page,
 
   ],
   providers: [
