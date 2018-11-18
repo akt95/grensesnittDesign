@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {CommentsOperaHusetPage} from "../opera-huset/comments-opera-huset/comments-opera-huset";
+import {OperaHusetDirectionsPage} from "../opera-huset/opera-huset-directions/opera-huset-directions";
 
 /**
  * Generated class for the louisVuittonPage page.
@@ -21,6 +22,11 @@ export class LouisVuittonPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad LouisVuittonPage');
+  }
+
+  toDirection()
+  {
+    this.navCtrl.push(OperaHusetDirectionsPage)
   }
 
   toComment()
