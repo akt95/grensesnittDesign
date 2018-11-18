@@ -35,6 +35,7 @@ import {LouisVuittonPage} from "../pages/discover/louis-vuitton/louis-vuitton";
 import {MatHallenPage} from "../pages/discover/mat-hallen/mat-hallen";
 import {ChatPage} from "../pages/discover/opera-huset/comments-opera-huset/chat/chat";
 import {OperaWriteCommentPage} from "../pages/discover/opera-huset/comments-opera-huset/opera-write-comment/opera-write-comment";
+import {HolmenkollenClickHerePage} from "../pages/discover/holmenkollen/holmenkollen-click-here/holmenkollen-click-here";
 
 
 @NgModule({
@@ -64,6 +65,7 @@ import {OperaWriteCommentPage} from "../pages/discover/opera-huset/comments-oper
     GrillerietPage,
     LouisVuittonPage,
     MatHallenPage,
+    HolmenkollenClickHerePage,
 
 
   ],
@@ -97,6 +99,7 @@ import {OperaWriteCommentPage} from "../pages/discover/opera-huset/comments-oper
     GrillerietPage,
     LouisVuittonPage,
     MatHallenPage,
+    HolmenkollenClickHerePage,
     OperaWriteCommentPage,
 
   ],
