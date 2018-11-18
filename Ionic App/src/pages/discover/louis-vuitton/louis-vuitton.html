@@ -1,18 +1,37 @@
-<!--
-  Generated template for the louisVuittonPage page.
-
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
 <ion-header>
+    
 
-  <ion-navbar>
-    <ion-title>LouisVuitton</ion-title>
-  </ion-navbar>
-
-</ion-header>
-
-
-<ion-content padding>
-
-</ion-content>
+    <ion-navbar>
+        <ion-icon id="heart" name="heart-outline"></ion-icon>
+      <ion-title>Louis Vuitton</ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+    
+  
+  <ion-content>
+      <img id="op-pic" src="../../../assets/imgs/lv.png" alt="Louis Vuitton"><img/>
+      <div id="text-container">
+          <div id="rating">
+              <ion-icon name="star" color="star"></ion-icon>
+              <ion-icon name="star" color="star"></ion-icon>
+              <ion-icon name="star" color="star"></ion-icon>
+              <ion-icon name="star" color="star"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+          </div>
+  
+      <div id="upper-text">
+        <p>Nedre Slottsgate 13, 0157 Oslo<br>
+      </div>
+  
+        <div id="low-text">
+          <p>Norway's only Louis Vuitton store is located in Nedre Slottsgate, Oslo's most exclusive shopping street.
+              The store sells luxury bags, shoes and other accessories.<br>
+           </p>
+        </div>
+      </div>
+      <div id="btn">
+          <button ion-button class="com-btn" color="com" block (click) =toComment()>COMMENTS</button>
+          <button ion-button class="dir-btn" block (click)=toDirection() >DIRECTIONS</button>
+      </div>
+  </ion-content>
