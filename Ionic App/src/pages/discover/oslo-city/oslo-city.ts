@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {CommentsOperaHusetPage} from "../opera-huset/comments-opera-huset/comments-opera-huset";
 
 /**
  * Generated class for the OsloCityPage page.
@@ -22,4 +23,8 @@ export class OsloCityPage {
     console.log('ionViewDidLoad OsloCityPage');
   }
 
+  toComment()
+  {
+    this.navCtrl.push(CommentsOperaHusetPage)
+  }
 }

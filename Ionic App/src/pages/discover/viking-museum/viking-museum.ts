@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {CommentsOperaHusetPage} from "../opera-huset/comments-opera-huset/comments-opera-huset";
 
 /**
  * Generated class for the VikingMuseumPage page.
@@ -20,6 +21,11 @@ export class VikingMuseumPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad VikingMuseumPage');
+  }
+
+  toComment()
+  {
+    this.navCtrl.push(CommentsOperaHusetPage)
   }
 
 }

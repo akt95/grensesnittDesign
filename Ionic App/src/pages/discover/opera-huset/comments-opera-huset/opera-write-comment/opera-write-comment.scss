@@ -1,3 +1,35 @@
 page-opera-write-comment {
 
-}
+       #fields{
+            position: absolute;
+            top: 180px;
+            width: 280px;
+            left: 4.9rem;
+        }
+    
+        #picture-container{
+        position: absolute;
+        width: 10rem;
+        height: 10rem;;
+        left: 14rem;
+        top: 5rem;
+    
+        }
+    
+        #picture{
+        position: absolute;
+        border-radius: 50%;
+        vertical-align: middle;
+        width: 100px;
+        height: 100px;
+        }
+    
+        #post-comment-btn{
+            position: absolute;
+            top: 450px;
+            width: 260px;
+            height: 3 rem;
+            left: 6rem;
+            
+        }
+    }
