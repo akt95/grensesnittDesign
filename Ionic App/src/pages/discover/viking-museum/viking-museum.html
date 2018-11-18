@@ -1,18 +1,39 @@
-<!--
-  Generated template for the VikingMuseumPage page.
-
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
 <ion-header>
+    
 
   <ion-navbar>
-    <ion-title>VikingMuseum</ion-title>
+      <ion-icon id="heart" name="heart-outline"></ion-icon>
+    <ion-title>Viking Ship Musuem</ion-title>
   </ion-navbar>
 
 </ion-header>
+  
 
+<ion-content>
+    <img id="op-pic" src="../../../assets/imgs/vikingmuseum.jpeg" alt="Viking Ship Museum"><img/>
+    <div id="text-container">
+      <div id="rating">
+          <ion-icon name="star" color="star"></ion-icon>
+          <ion-icon name="star" color="star"></ion-icon>
+          <ion-icon name="star" color="star"></ion-icon>
+          <ion-icon name="star" color="star"></ion-icon>
+          <ion-icon name="star-outline"></ion-icon>
+      </div>
 
-<ion-content padding>
+    <div id="upper-text">
+      <p>Address: Huk Aveny 35, 0287 Oslo<br>
+    </div>
 
+      <div id="low-text">
+        <p><b>See the world's best preserved viking ships up close</b><br>
+          All the viking ships at our museum were ocean going vessels before they were hauled 
+          onto land to be used in burial rituals for their wealthy owners. In the burial mounds, 
+          archeologists unearthed sceletons, beautiful wood carvings and a diverse range of artifacts from the fascinating world of the vikings.   
+         </p>
+      </div>
+    </div>
+    <div id="btn">
+        <button ion-button class="com-btn" color="com" block (click) =toComment()>COMMENTS</button>
+        <button ion-button class="dir-btn" block (click)=toDirection() >DIRECTIONS</button>
+    </div>
 </ion-content>
