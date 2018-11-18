@@ -39,6 +39,8 @@ import {HolmenkollenClickHerePage} from "../pages/discover/holmenkollen/holmenko
 import {PersonalQrPage} from "../pages/profile-name/sign-in/personal-qr/personal-qr";
 import {SettingPage} from "../pages/profile-name/sign-in/setting/setting";
 import {CouponsPage} from "../pages/profile-name/sign-in/coupons/coupons";
+import {QrStep1Page} from "../pages/wallet/qr-step1/qr-step1";
+import {QrStep2Page} from "../pages/wallet/qr-step2/qr-step2";
 
 
 @NgModule({
@@ -72,6 +74,8 @@ import {CouponsPage} from "../pages/profile-name/sign-in/coupons/coupons";
     PersonalQrPage,
     SettingPage,
     CouponsPage,
+    QrStep1Page,
+    QrStep2Page,
 
 
   ],
@@ -110,6 +114,8 @@ import {CouponsPage} from "../pages/profile-name/sign-in/coupons/coupons";
     PersonalQrPage,
     SettingPage,
     CouponsPage,
+    QrStep1Page,
+    QrStep2Page,
 
   ],
   providers: [
