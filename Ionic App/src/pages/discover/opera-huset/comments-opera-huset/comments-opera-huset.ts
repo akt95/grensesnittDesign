@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {ChatPage} from "./chat/chat";
+import {OperaWriteCommentPage} from "./opera-write-comment/opera-write-comment";
 
 /**
  * Generated class for the CommentsOperaHusetPage page.
@@ -26,5 +27,10 @@ export class CommentsOperaHusetPage {
   toChat()
   {
     this.navCtrl.push(ChatPage);
+  }
+
+  toWrite()
+  {
+    this.navCtrl.push(OperaWriteCommentPage);
   }
 }
