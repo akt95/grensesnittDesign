@@ -53,7 +53,15 @@ $colors: (
 // --------------------------------------------------
 // iOS only Sass variables can go here
 
+@font-face {
+  font-family: 'San Fransico';
+  src: url('../assets/fonts/System\ San\ Francisco\ Display\ Regular.ttf');
 
+}
+
+* {
+  font-family: 'San Fransico';
+}
 
 
 // App Material Design Variables
