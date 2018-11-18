@@ -22,7 +22,7 @@ page-comments-opera-huset {
         color: black;
         font-size: 120%;
         left: 8.5rem;
-        top: 20px;
+        top: 14px;
     }
     #yao-com{
         position: absolute;
@@ -33,7 +33,7 @@ page-comments-opera-huset {
     #yao-rate{
         position: absolute;
         left: 33rem;
-        top: 2.5rem;
+        top: 1.8rem;
         height: 4rem;
     }
     //LI NING PROPERTIES
@@ -44,25 +44,100 @@ page-comments-opera-huset {
         border-radius: 5px;
         position: absolute;
         left: 16px;
-        top: 107px;
+        top: 106px;
     }
     #li-name{
         position: absolute;
         color: black;
         font-size: 120%;
         left: 8.5rem;
-        top: 112px;
+        top: 105px;
     }
     #li-com{
         position: absolute;
         left: 8.5rem;
-        top: 142px;
+        top: 135px;
         font-style: italic;
     }
     #li-rate{
         position: absolute;
         left: 33rem;
-        top: 11.3rem;
+        top: 11rem;
         height: 4rem;
+    }
+    //ZHI RUO PROPERTIES
+    #zhi-pic{
+        position: absolute;
+        width: 53px;
+        height: 63.6px;
+        border-radius: 5px;
+        position: absolute;
+        left: 16px;
+        top: 197px;
+    }
+    #zhi-name{
+        position: absolute;
+        color: black;
+        font-size: 120%;
+        left: 8.5rem;
+        top: 195px;
+    }
+    #zhi-com{
+        position: absolute;
+        left: 8.5rem;
+        top: 230px;
+        font-style: italic;
+    }
+    #zhi-rate{
+        position: absolute;
+        left: 33rem;
+        top: 20rem;
+        height: 4rem;
+    }
+    //HAI WONG PROPERTIES
+    #hai-pic{
+        position: absolute;
+        width: 53px;
+        height: 63.6px;
+        border-radius: 5px;
+        position: absolute;
+        left: 16px;
+        top: 290px;
+    }
+    #hai-name{
+        position: absolute;
+        color: black;
+        font-size: 120%;
+        left: 8.5rem;
+        top: 290px;
+    }
+    #hai-com{
+        position: absolute;
+        left: 8.5rem;
+        top: 330px;
+        font-style: italic;
+    }
+    #hai-rate{
+        position: absolute;
+        left: 33rem;
+        top: 29.3rem;
+        height: 4rem;
+    }
+    //button
+    #btn-container{
+       position: absolute;
+       top: 510px;
+       width: 90%;
+       height: 4rem;
+       left: 1rem;
+       right: 1rem;
+       margin: 0 auto;
+
+    }
+    #com-btn{
+       height: 80%;
+       width: 20rem;
+       font-size: 12px;
+       left: 70px;
     }
 }
