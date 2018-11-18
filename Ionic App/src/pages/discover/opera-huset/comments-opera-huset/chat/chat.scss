@@ -23,7 +23,7 @@ page-chat {
         position: absolute;
         width: 13rem;
         height: 7rem;
-        top: 3rem;
+        top: 2rem;
         right: 10rem;
     }
     //SECOND MESSAGE
@@ -35,7 +35,7 @@ page-chat {
         font-size: 80%;
         left: 1rem;
         border-radius: 5px;
-        top: 15rem;
+        top: 13rem;
         background-color: #1cae3c;
     }
     #picture2{ 
@@ -50,7 +50,7 @@ page-chat {
         position: absolute;
         width: 13rem;
         height: 7rem;
-        top: 15rem;
+        top: 13rem;
         left: 11rem;
         color: white;
     }
@@ -63,7 +63,7 @@ page-chat {
         font-size: 80%;
         left: 1rem;
         border-radius: 5px;
-        top: 28rem;
+        top: 24rem;
         background-color: #1cae3c;
     }
     #picture3{ 
@@ -78,9 +78,16 @@ page-chat {
         position: absolute;
         width: 13rem;
         height: 7rem;
-        top: 28rem;
+        top: 24rem;
         left: 11rem;
         color: white;
+    }
+
+    #keyboard{
+        position: absolute;
+        top: 37rem;
+        height: 18rem;
+        width: 100%;
     }
 
 }

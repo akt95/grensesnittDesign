@@ -1,25 +1,27 @@
 page-opera-write-comment {
 
-       #fields{
-            position: absolute;
-            top: 150px;
-            width: 280px;
-            left: 4.9rem;
-            text-align: center;
-        }
-
-        #post-comment-btn{
-            position: absolute;
-            top: 450px;
-            width: 260px;
-            height: 3 rem;
-            left: 6rem;
-            
-        }
-
-        #box{
-            height: 200px;
-            text-align: center;
-        }
-
+    #tekst{
+        position: absolute;
+        left: 14rem;
     }
+    #rating{
+        position: absolute;
+        left: 14.7rem;
+        top: 4rem;
+    }
+    #line{
+        position: absolute;
+        height: 1px;
+        width: 40rem;
+        border-bottom-style: solid;
+        border-bottom-color: #f4f4f4;
+        top: 7rem;
+    }
+    #keyboard{
+     position: absolute;
+     top: 38rem;
+     height: 18rem;
+     width: 100%;
+ }
+
+ }
