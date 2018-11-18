@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
-import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
@@ -34,12 +33,12 @@ import {GrillerietPage} from "../pages/discover/grilleriet/grilleriet";
 import {LuisVuittonPage} from "../pages/discover/luis-vuitton/luis-vuitton";
 import {MatHallenPage} from "../pages/discover/mat-hallen/mat-hallen";
 import {ChatPage} from "../pages/discover/opera-huset/comments-opera-huset/chat/chat";
+import {HolmenkollenClickHerePage} from "../pages/discover/holmenkollen/holmenkollen-click-here/holmenkollen-click-here";
 
 
 @NgModule({
   declarations: [
     MyApp,
-    AboutPage,
     ContactPage,
     HomePage,
     DiscoverPage,
@@ -63,6 +62,7 @@ import {ChatPage} from "../pages/discover/opera-huset/comments-opera-huset/chat/
     GrillerietPage,
     LuisVuittonPage,
     MatHallenPage,
+    HolmenkollenClickHerePage,
 
 
   ],
@@ -73,7 +73,6 @@ import {ChatPage} from "../pages/discover/opera-huset/comments-opera-huset/chat/
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    AboutPage,
     DiscoverPage,
     KarlJohanPage,
     ContactPage,
@@ -97,6 +96,7 @@ import {ChatPage} from "../pages/discover/opera-huset/comments-opera-huset/chat/
     GrillerietPage,
     LuisVuittonPage,
     MatHallenPage,
+    HolmenkollenClickHerePage,
 
   ],
   providers: [

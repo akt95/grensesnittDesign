@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import {HolmenkollenClickHerePage} from "./holmenkollen-click-here/holmenkollen-click-here";
 
 /**
- * Generated class for the HolmenkollenPage page.
+ * Generated class for the HolmenkollenClickHerePage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,19 +10,16 @@ import {HolmenkollenClickHerePage} from "./holmenkollen-click-here/holmenkollen-
 
 @IonicPage()
 @Component({
-  selector: 'page-holmenkollen',
-  templateUrl: 'holmenkollen.html',
+  selector: 'page-holmenkollen-click-here',
+  templateUrl: 'holmenkollen-click-here.html',
 })
-export class HolmenkollenPage {
+export class HolmenkollenClickHerePage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad HolmenkollenPage');
+    console.log('ionViewDidLoad HolmenkollenClickHerePage');
   }
-clickHere()
-{
-  this.navCtrl.push(HolmenkollenClickHerePage);
-}
+
 }
