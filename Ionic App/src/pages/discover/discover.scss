@@ -246,26 +246,35 @@ page-discover {
   }
 
   //Luis Vuitton PROPERTIES-------------
-  #lv
-  {
+
+
+  #LuisVuitton{
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: none;
+    border-bottom-color: #d9d9d9;
+    height: 92px;
+  }
+  #lv{
     position: absolute;
     bottom: 40px;
     left: 80px;
     color: black;
   }
   #lv-img{
-      width: 53px;
-      height: 63.6px;
-      border-radius: 5px;
-      position: absolute;
-      left: 16px;
-
-    }
+    width: 53px;
+    height: 63.6px;
+    border-radius: 5px;
+    position: absolute;
+    left: 16px;
+  }
   #lv-adr{
     position: absolute;
     bottom: 10px;
     left: 80px;
     color: #d9d9d9;
+
   }
   #lv-dist{
     position: absolute;
@@ -274,12 +283,136 @@ page-discover {
     font-size: 80%;
     color: #d9d9d9;
   }
-
   #lv-rate{
     position: absolute;
     right: 16px;
     bottom: 25px;
   }
+  //--Grilleriet
+
+  #Grilleriet{
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: none;
+    border-bottom-color: #d9d9d9;
+    height: 92px;
+  }
+  #gr{
+    position: absolute;
+    bottom: 40px;
+    left: 80px;
+    color: black;
+  }
+  #gr-img{
+    width: 53px;
+    height: 63.6px;
+    border-radius: 5px;
+    position: absolute;
+    left: 16px;
+  }
+  #gr-adr{
+    position: absolute;
+    bottom: 10px;
+    left: 80px;
+    color: #d9d9d9;
+
+  }
+  #gr-dist{
+    position: absolute;
+    bottom: 40px;
+    right: 16px;
+    font-size: 80%;
+    color: #d9d9d9;
+  }
+  #gr-rate{
+    position: absolute;
+    right: 16px;
+    bottom: 25px;
+  }
+
+  //Max Burger
+  #MaxBurger{
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: none;
+    border-bottom-color: #d9d9d9;
+    height: 92px;
+  }
+  #mb{
+    position: absolute;
+    bottom: 40px;
+    left: 80px;
+    color: black;
+  }
+  #mb-img{
+    width: 53px;
+    height: 63.6px;
+    border-radius: 5px;
+    position: absolute;
+    left: 16px;
+  }
+  #mb-adr{
+    position: absolute;
+    bottom: 10px;
+    left: 80px;
+    color: #d9d9d9;
+
+  }
+  #mb-dist{
+    position: absolute;
+    bottom: 40px;
+    right: 16px;
+    font-size: 80%;
+    color: #d9d9d9;
+  }
+  #mb-rate {
+    position: absolute;
+    right: 16px;
+    bottom: 25px;
+  }
+  #MatHallen{
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: none;
+    border-bottom-color: #d9d9d9;
+    height: 92px;
+  }
+  #mh{
+    position: absolute;
+    bottom: 40px;
+    left: 80px;
+    color: black;
+  }
+  #mh-img{
+    width: 53px;
+    height: 63.6px;
+    border-radius: 5px;
+    position: absolute;
+    left: 16px;
+  }
+  #mh-adr{
+    position: absolute;
+    bottom: 10px;
+    left: 80px;
+    color: #d9d9d9;
+
+  }
+  #mh-dist{
+    position: absolute;
+    bottom: 40px;
+    right: 16px;
+    font-size: 80%;
+    color: #d9d9d9;
+  }
+  #mh-rate{
+    position: absolute;
+    right: 16px;
+    bottom: 25px;
+  }
+
 
 
   }
