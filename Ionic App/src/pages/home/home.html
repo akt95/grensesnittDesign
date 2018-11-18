@@ -13,6 +13,47 @@
 <ion-content padding>
 
 <h2 > 1 day in Oslo</h2>
+<div>
+  <ion-card>
+    <button id="operahuset" ion-button color="light" full outline (click)=toOperaHuset()>
+      <h3 id="op">Operahuset</h3>
+      <p id="op-adr">Kirsten Flagstads Plass 1</p>
+      <p id="op-dist">230m</p>
+      <img id="op-img" src="/assets/imgs/operahuset.jpg"><img/>
+      <div id="op-rate">
+        <ion-icon color="star" name="ios-star">4</ion-icon>
+      </div>
+    </button>
+  </ion-card>
+</div>
 
+  <div>
+    <ion-card>
+      <button id="karljohan" ion-button color="light" full outline (click)=toKarlJohan()>
+        <h3 id="kjg">Karl Johans Gate</h3>
+        <p id="kjg-adr">Karl Johans Gate</p>
+        <p id="kjg-dist">100m</p>
+        <img id="kjg-img" src="/assets/imgs/karljohansbilde.jpg"><img/>
+        <div id="kjg-rate">
+          <ion-icon color="star" name="ios-star">5</ion-icon>
+        </div>
+      </button>
+    </ion-card>
+  </div>
+
+
+<div>
+  <ion-card>
+    <button id="MatHallen" ion-button color="light" full outline (click)=toMatHallen()>
+      <h3 id="mh">Mathallen</h3>
+      <p id="mh-adr">Vulkan 5</p>
+      <p id="mh-dist">8.9km</p>
+      <img id="mh-img" src="/assets/imgs/holmenkollen.jpg"><img/>
+      <div id="mh-rate">
+        <ion-icon color="star" name="ios-star">5</ion-icon>
+      </div>
+    </button>
+  </ion-card>
+</div>
 
 </ion-content>

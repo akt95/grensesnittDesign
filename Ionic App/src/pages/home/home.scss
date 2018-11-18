@@ -1,5 +1,130 @@
 page-home {
 
+//OperaHuset
+  #operahuset{
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: none;
+    border-bottom-color: #d9d9d9;
+    height: 92px;
+  }
+  #op-img{
+    width: 53px;
+    height: 63.6px;
+    border-radius: 5px;
+    position: absolute;
+    left: 16px;
+  }
+  #op{
+    position: absolute;
+    bottom: 40px;
+    left: 80px;
+    color: black;
+  }
+  #op-adr{
+    position: absolute;
+    bottom: 10px;
+    left: 80px;
+    color: #d9d9d9;
 
+  }
+  #op-dist{
+    position: absolute;
+    bottom: 40px;
+    right: 16px;
+    font-size: 80%;
+    color: #d9d9d9;
+  }
+  #op-rate{
+    position: absolute;
+    right: 16px;
+    bottom: 25px;
+  }
+
+  //KarlJohan
+  #karljohan{
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: none;
+    border-bottom-color: #d9d9d9;
+    height: 92px;
+  }
+  #kjg-img{
+    width: 53px;
+    height: 63.6px;
+    border-radius: 5px;
+    position: absolute;
+    left: 16px;
+  }
+  #kjg{
+    position: absolute;
+    bottom: 40px;
+    left: 80px;
+    color: black;
+  }
+  #kjg-adr{
+    position: absolute;
+    bottom: 10px;
+    left: 80px;
+    color: #d9d9d9;
+  }
+  #kjg-dist{
+    position: absolute;
+    bottom: 40px;
+    right: 16px;
+    font-size: 80%;
+    color: #d9d9d9;
+  }
+  #kjg-rate{
+    position: absolute;
+    right: 16px;
+    bottom: 25px;
+  }
+
+  //Mathallen
+  #MatHallen{
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: none;
+    border-bottom-color: #d9d9d9;
+    height: 92px;
+  }
+  #mh{
+    position: absolute;
+    bottom: 40px;
+    left: 80px;
+    color: black;
+  }
+  #mh-img{
+    width: 53px;
+    height: 63.6px;
+    border-radius: 5px;
+    position: absolute;
+    left: 16px;
+  }
+  #mh-adr{
+    position: absolute;
+    bottom: 10px;
+    left: 80px;
+    color: #d9d9d9;
+
+  }
+  #mh-dist{
+    position: absolute;
+    bottom: 40px;
+    right: 16px;
+    font-size: 80%;
+    color: #d9d9d9;
+  }
+  #mh-rate{
+    position: absolute;
+    right: 16px;
+    bottom: 25px;
+  }
+
+  //KarlJohan
 
 }
