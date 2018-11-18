@@ -27,6 +27,7 @@ import {WalletPage} from "../pages/wallet/wallet";
 import {ProfileNamePage} from "../pages/profile-name/profile-name";
 import {CommentsOperaHusetPage} from "../pages/discover/opera-huset/comments-opera-huset/comments-opera-huset";
 import {OperaHusetDirectionsPage} from "../pages/discover/opera-huset/opera-huset-directions/opera-huset-directions";
+import{OperaInfoPage} from "../pages/discover/opera-huset/opera-info/opera-info";
 import {SignUpPage} from "../pages/profile-name/sign-up/sign-up";
 import {SignInPage} from "../pages/profile-name/sign-in/sign-in";
 import {MaxBurgerPage} from "../pages/discover/max-burger/max-burger";
@@ -54,6 +55,7 @@ import {MatHallenPage} from "../pages/discover/mat-hallen/mat-hallen";
     ProfileNamePage,
     CommentsOperaHusetPage,
     OperaHusetDirectionsPage,
+    OperaInfoPage,
     SignUpPage,
     SignInPage,
     MaxBurgerPage,
@@ -85,6 +87,7 @@ import {MatHallenPage} from "../pages/discover/mat-hallen/mat-hallen";
     TabsPage,
     WalletPage,
     ProfileNamePage,
+    OperaInfoPage,
     CommentsOperaHusetPage,
     OperaHusetDirectionsPage,
     SignUpPage,

@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {CommentsOperaHusetPage} from "./comments-opera-huset/comments-opera-huset";
 import {OperaHusetDirectionsPage} from "./opera-huset-directions/opera-huset-directions";
+import {OperaInfoPage} from "./opera-info/opera-info";
 
 /**
  * Generated class for the OperaHusetPage page.
@@ -28,5 +29,10 @@ export class OperaHusetPage {
   toDirection()
   {
     this.navCtrl.push(OperaHusetDirectionsPage)
+  }
+
+  toOperaInfo()
+  {
+    this.navCtrl.push(OperaInfoPage);
   }
 }
