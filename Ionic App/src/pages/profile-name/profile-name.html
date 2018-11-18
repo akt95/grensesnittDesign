@@ -13,17 +13,19 @@
 </ion-header>
 
 
-<ion-content padding>
+<ion-content>
 
   <div id="somethingDiv">
     <img src="../../assets/imgs/something.jpg" id ="somethingProfile">
   </div>
-    <button ion-button full>Sign Up With WeChat</button>
 
+    <div id="echat-btn">
+    <button ion-button block color="primary">Sign Up With WeChat</button>
+    </div>
     <ion-list>
-
+      <div id="cards">
       <ion-card>
-      <div>
+      <div id="user">
       <ion-item>
         <ion-label fixed>Username:</ion-label>
         <ion-input type="text" value=""> </ion-input>
@@ -32,19 +34,20 @@
       </ion-card>
 
       <ion-card>
-      <div>
+      <div id="pw">
       <ion-item>
         <ion-label fixed>Password:</ion-label>
         <ion-input type="password" value=""> </ion-input>
       </ion-item>
       </div>
       </ion-card>
-
+    </div>
     </ion-list>
-
-    <button ion-button full (click)=toSignIn()>Sign-in</button>
-
-    <button ion-button full (click)=toSignUp()>Sign up</button>
-
+    <div id="sign-in-container">
+      <button ion-button id="signin-button" color="com" block (click)=toSignIn()>Sign-in</button>
+    </div>
+    <div id="sign-up-container">
+    <button ion-button class="signup-btn" color="hvit" block (click)=toSignUp()>Sign up</button>
+  </div>
 
 </ion-content>
