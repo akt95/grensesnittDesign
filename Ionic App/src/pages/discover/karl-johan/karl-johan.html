@@ -1,25 +1,38 @@
 <ion-header>
+    
 
-  <ion-navbar>
-    <ion-title>Karl Johan</ion-title>
-  </ion-navbar>
+    <ion-navbar>
+        <ion-icon id="heart" name="heart" color="red"></ion-icon>
+      <ion-title>Karl Johan</ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+    
+  
+  <ion-content>
+      <img id="op-pic" src="../../../assets/imgs/karljohansbilde.jpg" alt="Picture of Karl Johans street"><img/>
+      <div id="text-container">
+        <div id="rating">
+            <ion-icon name="star" color="star"></ion-icon>
+            <ion-icon name="star" color="star"></ion-icon>
+            <ion-icon name="star" color="star"></ion-icon>
+            <ion-icon name="star" color="star"></ion-icon>
+            <ion-icon name="star-outline"></ion-icon>
+        </div>
 
-</ion-header>
+      <div id="upper-text">
+        <p>Address: Karl Johansgate 1, 0154 Oslo<br>
+      </div>
 
-
-<ion-content padding >
-<img src="../../../assets/imgs/karljohansbilde.jpg" id="bilde">
-  <hr>
-  <p>Do you remember the 21st night of September?
-    Love was changing the minds of pretenders
-    While chasing the clouds away
-    Our hearts were ringing
-    In the key that our souls were singing
-    As we danced in the night
-    Remember how the stars stole the night away</p>
-
-</ion-content>
-
-
-
-<ion-footer padding> Karl Johans Gate</ion-footer>s
+        <div id="low-text">
+          <p>Karl Johan street is packed with all kind of stores.<br>
+            It has everything from highend clothing stores, to fast food resturants. In the winter there is a skating rink at the end of the street. You can rent ice skates there, so you don't have to bring youre own.<br>
+           </p>
+        </div>
+      </div>
+      <div id="btn">
+          <button ion-button class="com-btn" color="com" block (click) =toComment()>COMMENTS</button>
+          <button ion-button class="dir-btn" block (click)=toDirection() >DIRECTIONS</button>
+      </div>
+  </ion-content>
+  

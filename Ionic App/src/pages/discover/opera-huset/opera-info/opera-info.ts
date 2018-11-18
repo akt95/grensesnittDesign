@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import {ChatPage} from "./chat/chat";
 
 /**
- * Generated class for the CommentsOperaHusetPage page.
+ * Generated class for the OperaInfoPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,20 +10,16 @@ import {ChatPage} from "./chat/chat";
 
 @IonicPage()
 @Component({
-  selector: 'page-comments-opera-huset',
-  templateUrl: 'comments-opera-huset.html',
+  selector: 'page-opera-info',
+  templateUrl: 'opera-info.html',
 })
-export class CommentsOperaHusetPage {
+export class OperaInfoPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad CommentsOperaHusetPage');
+    console.log('ionViewDidLoad OperaInfoPage');
   }
 
-  toChat()
-  {
-    this.navCtrl.push(ChatPage);
-  }
 }
