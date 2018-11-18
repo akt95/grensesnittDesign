@@ -244,7 +244,42 @@ page-discover {
     right: 16px;
     bottom: 25px;
   }
-  
-  
-  
+
+  //Luis Vuitton PROPERTIES-------------
+  #lv
+  {
+    position: absolute;
+    bottom: 40px;
+    left: 80px;
+    color: black;
+  }
+  #lv-img{
+      width: 53px;
+      height: 63.6px;
+      border-radius: 5px;
+      position: absolute;
+      left: 16px;
+
+    }
+  #lv-adr{
+    position: absolute;
+    bottom: 10px;
+    left: 80px;
+    color: #d9d9d9;
+  }
+  #lv-dist{
+    position: absolute;
+    bottom: 40px;
+    right: 16px;
+    font-size: 80%;
+    color: #d9d9d9;
+  }
+
+  #lv-rate{
+    position: absolute;
+    right: 16px;
+    bottom: 25px;
+  }
+
+
   }
