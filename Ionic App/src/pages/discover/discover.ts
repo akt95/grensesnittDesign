@@ -11,6 +11,7 @@ import {MatHallenPage} from "./mat-hallen/mat-hallen";
 import {MaxBurgerPage} from "./max-burger/max-burger";
 import {LouisVuittonPage} from "./louis-vuitton/louis-vuitton";
 import {GrillerietPage} from "./grilleriet/grilleriet";
+import {ChatPage} from "./opera-huset/comments-opera-huset/chat/chat";
 
 @Component({
   selector: 'page-discover',
@@ -29,6 +30,11 @@ export class DiscoverPage {
   {
 
   }
+
+  toChat()
+{
+  this.navCtrl.push(ChatPage);
+}
 
   toKarlJohan()
   {
